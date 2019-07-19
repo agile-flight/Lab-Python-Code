@@ -2,8 +2,8 @@ DirectionstotheRoomofLaughter = ("Left","Right","Left","Left","Left","Right")
 DirectionstoMsBigheadsLab = ("Right","Left","Left","Left","Right","Left")
 DirectionstoAmniacLab = ("Left","Right","Right","Left","Left","Left")
 
-Name = input("What is your name" + "\n"
-directions = [ DirectionstotheRoomofLaughter , DirectionstoMsBigheadsLab , DirectionstoAmniacLab, ]
+Name = input("What is your name" + "\n")
+directions = [ DirectionstotheRoomofLaughter , DirectionstoMsBigheadsLab , DirectionstoAmniacLab ]
 cyclenumber = 1
 
 list_rooms =['Room of Laughter',"Ms.Bighead's","Amniac Lab"]
@@ -19,12 +19,11 @@ def cycle1():
         if LabNum not in range(1,3):
              print ("That is not a listed lab")
         else:
-            print("Ok " + Name + " These are the directions to" + list_rooms[int(LabNum)-1] + "\n" + d[int(LabNum)-1]
+            print("Ok " + Name + " These are the directions to" + list_rooms[int(LabNum)-1] + "\n" + d[int(LabNum)-1])
             return
 
 cycle1()
-if cyclenumber not in range(1,3)
-        print ("Leave the premises now")
-        break
-if list_rooms[int(LabNum)-1] == 'Room of Laughter'
-0 comments on commit 6fc6a6a
+if cyclenumber not in range(1,3):
+    print ("Leave the premises now")
+if list_rooms[int(LabNum)-1] == 'Room of Laughter':
+    print ("'Room of Laughter")
